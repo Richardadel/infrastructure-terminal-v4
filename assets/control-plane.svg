@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="920" viewBox="0 0 800 920" role="img" aria-labelledby="title desc">
+  <title id="title">Infrastructure engineering control plane</title>
+  <desc id="desc">A stacked conceptual view of identity, endpoints, cloud, networking, and operations expertise.</desc>
+  <style>@media (prefers-reduced-motion: reduce) {.motion { display: none; }}</style>
+  <rect width="800" height="920" rx="18" fill="#050807" stroke="#1C3B2D" stroke-width="2"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="40" y="56" fill="#A9BFB3" font-size="22" letter-spacing="2">ENGINEERING DOMAINS // CONCEPTUAL MODEL</text>
+  </g>
+  <g fill="#101A16" stroke="#1C3B2D" stroke-width="2">
+    <rect x="40" y="84" width="720" height="124" rx="14"/><rect x="40" y="224" width="720" height="124" rx="14"/>
+    <rect x="40" y="364" width="720" height="124" rx="14"/><rect x="40" y="504" width="720" height="124" rx="14"/>
+    <rect x="40" y="644" width="720" height="124" rx="14"/>
+  </g>
+  <g fill="none" stroke="#00FF88" stroke-width="2" opacity=".75"><path d="M400 208V224M400 348V364M400 488V504M400 628V644"/></g>
+  <path d="M720 146H744V286H720V426H744V566H720V706H744" fill="none" stroke="#1C3B2D" stroke-width="2"/>
+  <path class="motion" d="M720 146H744V286H720V426H744V566H720V706H744" fill="none" stroke="#00FF88" stroke-width="2" stroke-dasharray="5 18" stroke-dashoffset="90">
+    <animate attributeName="stroke-dashoffset" values="90;0;90" dur="10s" repeatCount="indefinite"/>
+  </path>
+  <g fill="#050807" stroke="#00FF88" stroke-width="2">
+    <circle cx="720" cy="146" r="7"/><circle cx="720" cy="286" r="7"/><circle cx="720" cy="426" r="7"/>
+    <circle cx="720" cy="566" r="7"/><circle cx="720" cy="706" r="7"/>
+  </g>
+  <g class="motion" fill="#8AFFC1">
+    <circle r="5"><animateMotion dur="12s" repeatCount="indefinite" path="M720 146H744V286H720V426H744V566H720V706H744"/></circle>
+    <circle r="4"><animateMotion dur="10s" begin="4s" repeatCount="indefinite" path="M744 706H720V566H744V426H720V286H744V146H720"/></circle>
+  </g>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" fill="#F2FFF8">
+    <g font-size="27" font-weight="700" fill="#00FF88"><text x="72" y="122">01  IDENTITY &amp; ACCESS</text><text x="72" y="262">02  ENDPOINT MANAGEMENT</text><text x="72" y="402">03  CLOUD &amp; MICROSOFT 365</text><text x="72" y="542">04  NETWORK INFRASTRUCTURE</text><text x="72" y="682">05  ENTERPRISE OPERATIONS</text></g>
+    <g font-size="22"><text x="72" y="160">AD DS / ENTRA ID / MFA / ACCESS</text><text x="72" y="300">INTUNE / AUTOPILOT / ADDIGY</text><text x="72" y="440">AZURE VM / MICROSOFT 365 / ONEDRIVE</text><text x="72" y="580">SWITCHES / PATCH / WAP / DIAGNOSTICS</text><text x="72" y="720">SERVICENOW / JIRA / ITAM</text></g>
+  </g>
+  <text x="400" y="868" text-anchor="middle" fill="#A9BFB3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20">CONCEPTUAL EXPERTISE MODEL — NOT LIVE INFRASTRUCTURE</text>
+</svg>

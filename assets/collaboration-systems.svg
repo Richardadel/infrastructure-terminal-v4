@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="620" viewBox="0 0 800 620" role="img" aria-labelledby="title">
+  <title id="title">Enterprise collaboration systems</title>
+  <style>@media (prefers-reduced-motion: reduce) {.motion { display: none; }}</style>
+  <rect width="800" height="620" rx="18" fill="#050807" stroke="#1C3B2D" stroke-width="2"/>
+  <g fill="#101A16" stroke="#1C3B2D" stroke-width="2"><rect x="40" y="50" width="720" height="90" rx="12"/><rect x="40" y="160" width="720" height="90" rx="12"/><rect x="40" y="270" width="720" height="90" rx="12"/><rect x="40" y="380" width="720" height="90" rx="12"/><rect x="40" y="490" width="720" height="90" rx="12"/></g>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" fill="#F2FFF8">
+    <g fill="#00FF88" font-size="26" font-weight="700"><text x="72" y="88">ROOM CONTROLLER</text><text x="72" y="198">CAMERA</text><text x="72" y="308">AUDIO</text><text x="72" y="418">DISPLAY</text><text x="72" y="528">MEETING PLATFORM</text></g>
+    <g font-size="22"><text x="72" y="124">Crestron</text><text x="72" y="234">Poly / Neat</text><text x="72" y="344">Enterprise audio system</text><text x="72" y="454">Room display</text><text x="72" y="564">Microsoft Teams Rooms / Zoom</text></g>
+  </g>
+  <path class="motion" d="M500 316h18l10-16 16 32 16-32 16 32 16-16h38" fill="none" stroke="#00FF88" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="12 8">
+    <animate attributeName="stroke-dashoffset" values="0;-40" dur="3.5s" repeatCount="indefinite"/>
+  </path>
+  <path d="M700 198V418" fill="none" stroke="#1C3B2D" stroke-width="2"/>
+  <circle cx="700" cy="198" r="16" fill="none" stroke="#00FF88" stroke-width="2"/>
+  <circle class="motion" cx="700" cy="198" r="21" fill="none" stroke="#8AFFC1" stroke-width="2" opacity=".7">
+    <animate attributeName="r" values="16;24;16" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".2;.8;.2" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <g class="motion" fill="#8AFFC1">
+    <circle r="5"><animateMotion dur="6s" repeatCount="indefinite" path="M700 198V418"/></circle>
+    <circle r="4"><animateMotion dur="8s" begin="2s" repeatCount="indefinite" path="M700 418V198"/></circle>
+  </g>
+</svg>

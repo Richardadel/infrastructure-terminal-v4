@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="740" viewBox="0 0 800 740" role="img" aria-labelledby="title">
+  <title id="title">Endpoint lifecycle workflow</title>
+  <style>@media (prefers-reduced-motion: reduce) {.motion { display: none; }}</style>
+  <rect width="800" height="740" rx="18" fill="#050807" stroke="#1C3B2D" stroke-width="2"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" fill="#A9BFB3" font-size="22"><text x="40" y="56">DEVICE LIFECYCLE</text></g>
+  <g fill="#101A16" stroke="#1C3B2D" stroke-width="2">
+    <rect x="40" y="84" width="720" height="108" rx="12"/><rect x="40" y="208" width="720" height="108" rx="12"/>
+    <rect x="40" y="332" width="720" height="108" rx="12"/><rect x="40" y="456" width="720" height="108" rx="12"/>
+    <rect x="40" y="580" width="720" height="108" rx="12"/>
+  </g>
+  <g fill="none" stroke="#00FF88" stroke-width="2"><path d="M400 192V208M400 316V332M400 440V456M400 564V580"/></g>
+  <path d="M730 96V676" fill="none" stroke="#00FF88" stroke-width="1" stroke-dasharray="3 12" opacity=".35"/>
+  <circle class="motion" r="6" fill="#8AFFC1"><animateMotion dur="10s" repeatCount="indefinite" path="M730 96 V676"/></circle>
+  <g transform="translate(650 100)" fill="none" stroke="#8AFFC1" stroke-width="2" stroke-linejoin="round">
+    <rect class="motion" x="0" y="0" width="54" height="34" rx="3" stroke-dasharray="176" stroke-dashoffset="176">
+      <animate attributeName="stroke-dashoffset" values="176;0;0" keyTimes="0;.35;1" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M-6 40H60L54 34H0Z"/>
+    <circle class="motion" cx="27" cy="17" r="4" fill="#00FF88" stroke="none">
+      <animate attributeName="opacity" values=".2;1;.2" dur="8s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" fill="#F2FFF8">
+    <g font-size="27" font-weight="700" fill="#00FF88"><text x="72" y="120">01  PROVISION</text><text x="72" y="244">02  ENROLL</text><text x="72" y="368">03  CONFIGURE</text><text x="72" y="492">04  MANAGE</text><text x="72" y="616">05  RETIRE</text></g>
+    <g font-size="21"><text x="72" y="158">Device preparation and operating system setup</text><text x="72" y="282">Autopilot / Intune / Addigy enrollment</text><text x="72" y="406">Profiles, domain join, and access settings</text><text x="72" y="530">Support, updates, and lifecycle operations</text><text x="72" y="654">Replacement and device retirement</text></g>
+  </g>
+</svg>
