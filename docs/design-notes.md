@@ -15,7 +15,9 @@
 
 ## Rendering
 
-Visual assets use self-contained SVG primitives, native SVG animation, and system font stacks. Each animation follows its diagram: terminal command reveal and topology signals, packet paths, authentication decisions, device stages, service traces, and project-specific flows. Labels and profile metrics remain static. SVG-local reduced-motion rules hide motion layers while keeping the diagrams readable. No JavaScript, external fonts, iframes, or external stylesheets are used. Responsive scaling is handled by viewBox and Markdown image width.
+V4 keeps the approved V3 README structure and technical descriptions, with independent SVG assets stored in this repository. The hero uses a simulated command console, layered binary rain, radar sweep, and a conceptual domain map. The network study separates wired and wireless paths through generic patching and access-switch components, with packet/response trails and a diagnostic sequence.
+
+The remaining diagrams use distinct signal stories for authentication decisions, endpoint provisioning, service administration, incident handling, collaboration, role milestones, project data flows, and logic fundamentals. Text and portfolio figures remain static. Native SVG motion is decorative/simulated, not live telemetry, production integrations, or employer infrastructure. Reduced-motion rules hide animated layers while preserving the diagrams. No JavaScript, external fonts, iframes, or stylesheets are used.
 
 ## Technical boundaries
 

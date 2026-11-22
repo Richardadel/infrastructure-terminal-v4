@@ -13,5 +13,9 @@
     <circle cx="500" cy="242" r="4" fill="#050807"/><circle cx="500" cy="268" r="4" fill="#050807"/>
     <circle cx="626" cy="255" r="4" fill="#050807"/>
   </g>
-  <circle class="motion" r="5" fill="#8AFFC1"><animateMotion dur="7s" repeatCount="indefinite" path="M500 242H530C586 242 586 268 586 268V255H626V310H650"/></circle>
+  <g class="motion">
+    <circle r="4" fill="#8AFFC1"><animateMotion dur="3s" repeatCount="indefinite" path="M500 242H530"/></circle>
+    <circle r="4" fill="#39FF14"><animateMotion dur="3s" begin="1.5s" repeatCount="indefinite" path="M500 268H530"/></circle>
+    <circle r="5" fill="#8AFFC1"><animateMotion dur="3.5s" begin="4.5s" repeatCount="indefinite" path="M586 255H626V310H650"/></circle>
+  </g>
 </svg>

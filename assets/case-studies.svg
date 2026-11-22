@@ -13,6 +13,14 @@
     <path d="M652 184h64m-42-4v4"/>
     <circle cx="610" cy="480" r="7" stroke="#00FF88"/><circle cx="680" cy="452" r="7" stroke="#00FF88"/><circle cx="680" cy="480" r="7" stroke="#00FF88"/>
   </g>
+  <rect class="motion" x="664" y="150" width="40" height="3" fill="#39FF14" opacity=".75">
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 22;0 0" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+  <g class="motion" fill="#8AFFC1">
+    <circle cx="610" cy="480" r="4"><animate attributeName="opacity" values=".2;1;.2" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="680" cy="452" r="4"><animate attributeName="opacity" values=".2;1;.2" dur="5s" begin="1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="680" cy="480" r="4"><animate attributeName="opacity" values=".2;1;.2" dur="5s" begin="3s" repeatCount="indefinite"/></circle>
+  </g>
   <g class="motion" fill="#8AFFC1">
     <circle r="5"><animateMotion dur="5s" repeatCount="indefinite" path="M540 200 H720"/></circle>
     <circle r="4"><animateMotion dur="7s" repeatCount="indefinite" path="M540 480 H610V452H680V480H720"/></circle>

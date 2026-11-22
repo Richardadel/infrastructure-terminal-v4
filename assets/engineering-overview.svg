@@ -15,4 +15,10 @@
     <path d="M300 356h12l8-14 12 26 12-33 12 21h13" stroke-dasharray="98" stroke-dashoffset="98"><animate attributeName="stroke-dashoffset" values="98;0;0;98" keyTimes="0;.28;.72;1" dur="7s" begin="3s" repeatCount="indefinite"/></path>
     <path d="M680 356h12l8-18 12 28 12-34 12 23h12" stroke-dasharray="102" stroke-dashoffset="102"><animate attributeName="stroke-dashoffset" values="102;0;0;102" keyTimes="0;.28;.72;1" dur="7s" begin="4.5s" repeatCount="indefinite"/></path>
   </g>
+  <g class="motion" fill="#8AFFC1">
+    <circle r="3"><animateMotion dur="7s" repeatCount="indefinite" path="M300 156h13l8-18 12 28 12-36 13 26h12"/></circle>
+    <circle r="3"><animateMotion dur="7s" begin="1.5s" repeatCount="indefinite" path="M680 156h12l8-16 12 27 11-32 12 21h14"/></circle>
+    <circle r="3"><animateMotion dur="7s" begin="3s" repeatCount="indefinite" path="M300 356h12l8-14 12 26 12-33 12 21h13"/></circle>
+    <circle r="3"><animateMotion dur="7s" begin="4.5s" repeatCount="indefinite" path="M680 356h12l8-18 12 28 12-34 12 23h12"/></circle>
+  </g>
 </svg>

@@ -16,6 +16,12 @@
 
   <path d="M100 520H600M600 520L716 478M600 520L716 562" fill="none" stroke="#1C3B2D" stroke-width="3"/>
   <path d="M100 520H600" fill="none" stroke="#00FF88" stroke-width="2" opacity=".55"/>
+  <g fill="none" stroke="#8AFFC1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="100" cy="490" r="5"/><path d="M89 507c1-8 21-8 22 0"/>
+    <path d="M270 482l12 5v9c0 8-7 13-12 16-5-3-12-8-12-16v-9z"/>
+    <path d="M432 500v-6a8 8 0 0 1 16 0v6m-20 0h24v13h-24z"/>
+    <path d="m594 491 6 6 11-13"/>
+  </g>
   <g fill="#050807" stroke="#00FF88" stroke-width="2">
     <circle cx="100" cy="520" r="12"/><circle cx="270" cy="520" r="12"/>
     <circle cx="440" cy="520" r="12"/><circle cx="600" cy="520" r="12"/>

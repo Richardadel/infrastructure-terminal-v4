@@ -44,6 +44,10 @@
     <circle r="4"><animateMotion dur="3.5s" begin="1.7s" repeatCount="indefinite" path="M650 246H610"/></circle>
     <circle r="4"><animateMotion dur="3s" repeatCount="indefinite" path="M580 592V620"/></circle>
     <circle r="4"><animateMotion dur="5s" repeatCount="indefinite" path="M644 592V620"/></circle>
+    <circle r="4"><animateMotion dur="4.5s" repeatCount="indefinite" path="M644 570H668H680"/></circle>
     <circle r="4"><animateMotion dur="5s" repeatCount="indefinite" path="M618 912V976"/></circle>
   </g>
+  <path class="motion" d="M618 928H726" fill="none" stroke="#8AFFC1" stroke-width="2" stroke-dasharray="2 12" opacity=".75">
+    <animate attributeName="stroke-dashoffset" values="0;-56" dur="2.5s" repeatCount="indefinite"/>
+  </path>
 </svg>

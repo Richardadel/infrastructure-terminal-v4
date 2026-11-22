@@ -15,7 +15,14 @@
   <path class="motion" d="M674 82H734V202H674V322H734V442H674V562H734V682H674" fill="none" stroke="#00FF88" stroke-width="2" stroke-dasharray="4 18" stroke-dashoffset="110">
     <animate attributeName="stroke-dashoffset" values="110;0;110" dur="12s" repeatCount="indefinite"/>
   </path>
-  <g fill="#050807" stroke="#00FF88" stroke-width="2"><circle cx="674" cy="82" r="7"/><circle cx="674" cy="202" r="7"/><circle cx="674" cy="322" r="7"/><circle cx="674" cy="442" r="7"/><circle cx="674" cy="562" r="7"/><circle cx="674" cy="682" r="7"/></g>
+  <g fill="#050807" stroke="#00FF88" stroke-width="2">
+    <circle cx="674" cy="82" r="7"><animate class="motion" attributeName="r" values="7;10;7" dur="12s" repeatCount="indefinite"/></circle>
+    <circle cx="674" cy="202" r="7"><animate class="motion" attributeName="r" values="7;10;7" dur="12s" begin="2s" repeatCount="indefinite"/></circle>
+    <circle cx="674" cy="322" r="7"><animate class="motion" attributeName="r" values="7;10;7" dur="12s" begin="4s" repeatCount="indefinite"/></circle>
+    <circle cx="674" cy="442" r="7"><animate class="motion" attributeName="r" values="7;10;7" dur="12s" begin="6s" repeatCount="indefinite"/></circle>
+    <circle cx="674" cy="562" r="7"><animate class="motion" attributeName="r" values="7;10;7" dur="12s" begin="8s" repeatCount="indefinite"/></circle>
+    <circle cx="674" cy="682" r="7"><animate class="motion" attributeName="r" values="7;10;7" dur="12s" begin="10s" repeatCount="indefinite"/></circle>
+  </g>
   <g class="motion" fill="#8AFFC1">
     <circle r="5"><animateMotion dur="13s" repeatCount="indefinite" path="M674 82H734V202H674V322H734V442H674V562H734V682H674"/></circle>
     <circle r="4"><animateMotion dur="11s" begin="4s" repeatCount="indefinite" path="M674 682H734V562H674V442H734V322H674V202H734V82H674"/></circle>

@@ -17,8 +17,11 @@
     <animate attributeName="stroke-dashoffset" values="90;0;90" dur="10s" repeatCount="indefinite"/>
   </path>
   <g fill="#050807" stroke="#00FF88" stroke-width="2">
-    <circle cx="720" cy="146" r="7"/><circle cx="720" cy="286" r="7"/><circle cx="720" cy="426" r="7"/>
-    <circle cx="720" cy="566" r="7"/><circle cx="720" cy="706" r="7"/>
+    <circle cx="720" cy="146" r="7"><animate class="motion" attributeName="r" values="7;11;7" dur="12s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="286" r="7"><animate class="motion" attributeName="r" values="7;11;7" dur="12s" begin="2s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="426" r="7"><animate class="motion" attributeName="r" values="7;11;7" dur="12s" begin="4s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="566" r="7"><animate class="motion" attributeName="r" values="7;11;7" dur="12s" begin="6s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="706" r="7"><animate class="motion" attributeName="r" values="7;11;7" dur="12s" begin="8s" repeatCount="indefinite"/></circle>
   </g>
   <g class="motion" fill="#8AFFC1">
     <circle r="5"><animateMotion dur="12s" repeatCount="indefinite" path="M720 146H744V286H720V426H744V566H720V706H744"/></circle>

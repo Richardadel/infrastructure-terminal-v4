@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/hero.svg" alt="Richard Fathalla — IT Infrastructure and Systems Engineering" width="100%">
+  <img src="./assets/hero.svg" alt="Richard Fathalla — IT Infrastructure and Systems Engineering, shown in a simulated console with a conceptual domain map" width="100%">
 </div>
 
 <br>
@@ -43,7 +43,7 @@ Managed enterprise endpoint lifecycles across Windows 10/11 and macOS through Mi
 Provided on-site Layer 1/2 infrastructure support and network troubleshooting across enterprise environments, including switch-port diagnostics, patch-panel cabling, wireless access point work, and data-room operations. Assisted the network team during a site-wide upgrade with rack and server installation, cabling, and switch-port support. Applied structured diagnosis to restore connectivity and document unresolved infrastructure issues.
 
 <div align="center">
-  <img src="./assets/network-topology.svg" alt="Network infrastructure topology with illustrative bidirectional packet paths through network layers" width="100%">
+  <img src="./assets/network-topology.svg" alt="Conceptual wired and wireless Layer 1/2 paths through an endpoint, patch panel, access switch, and network handoff; traffic is simulated" width="100%">
 </div>
 
 ## CLOUD & MICROSOFT 365

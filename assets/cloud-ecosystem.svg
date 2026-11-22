@@ -19,5 +19,10 @@
     <circle r="5"><animateMotion dur="9s" repeatCount="indefinite" path="M720 92V372"/></circle>
     <circle r="4"><animateMotion dur="11s" begin="3s" repeatCount="indefinite" path="M720 372V92"/></circle>
   </g>
+  <g class="motion" fill="none" stroke="#8AFFC1" stroke-width="2">
+    <circle cx="720" cy="92" r="17"><animate attributeName="r" values="11;18;11" dur="9s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="232" r="17"><animate attributeName="r" values="11;18;11" dur="9s" begin="3s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="372" r="17"><animate attributeName="r" values="11;18;11" dur="9s" begin="6s" repeatCount="indefinite"/></circle>
+  </g>
   <text x="400" y="510" text-anchor="middle" fill="#8FA99B" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">SYMBOLIC SERVICE FLOW · NOT A DEPLOYED CLOUD TOPOLOGY</text>
 </svg>

@@ -11,6 +11,9 @@
     <circle cx="72" cy="500" r="16"><animate attributeName="r" values="10;18;10" dur="12s" begin="6s" repeatCount="indefinite"/></circle>
     <circle cx="72" cy="680" r="16"><animate attributeName="r" values="10;18;10" dur="12s" begin="9s" repeatCount="indefinite"/></circle>
   </g>
+  <path class="motion" d="M72 70V750" fill="none" stroke="#8AFFC1" stroke-width="1" stroke-dasharray="18 662" opacity=".55">
+    <animate attributeName="stroke-dashoffset" values="0;-680" dur="16s" repeatCount="indefinite"/>
+  </path>
   <g font-family="Inter, Segoe UI, Arial, sans-serif" fill="#F2FFF8">
     <g fill="#00FF88" font-size="21" letter-spacing="1"><text x="112" y="82">JAN 2025 — PRESENT</text><text x="112" y="262">JUL 2024 — JAN 2025</text><text x="112" y="442">DEC 2022 — JUN 2024</text><text x="112" y="622">JUL 2021 — DEC 2022</text></g>
     <g font-size="26" font-weight="700"><text x="112" y="120">FIELD SUPPORT TECHNICIAN</text><text x="112" y="300">SERVICE DESK ANALYST</text><text x="112" y="480">SYSTEM ANALYST</text><text x="112" y="660">INFORMATION TECHNOLOGY SPECIALIST</text></g>

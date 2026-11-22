@@ -15,6 +15,9 @@
     <rect class="motion" x="0" y="0" width="54" height="34" rx="3" stroke-dasharray="176" stroke-dashoffset="176">
       <animate attributeName="stroke-dashoffset" values="176;0;0" keyTimes="0;.35;1" dur="8s" repeatCount="indefinite"/>
     </rect>
+    <rect class="motion" x="2" y="4" width="50" height="3" fill="#39FF14" stroke="none" opacity=".5">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 24;0 0" dur="4s" repeatCount="indefinite"/>
+    </rect>
     <path d="M-6 40H60L54 34H0Z"/>
     <circle class="motion" cx="27" cy="17" r="4" fill="#00FF88" stroke="none">
       <animate attributeName="opacity" values=".2;1;.2" dur="8s" begin="2s" repeatCount="indefinite"/>
